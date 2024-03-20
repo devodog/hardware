@@ -1,1 +1,2 @@
-# hardware repository to contain various hardware projects for PCB production
+# hardware
+This repository is to contain various hardware projects for PCB production
