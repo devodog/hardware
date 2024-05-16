@@ -1,0 +1,1 @@
+Error: Cannot add SW1 (no footprint assigned).
