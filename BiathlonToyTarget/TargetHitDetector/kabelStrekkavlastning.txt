@@ -1,0 +1,4 @@
+Klave for kabel strekkavlastning
+24,9 mm hull-avstad med hull-diameter = 3,2 mm
+avstand fra hull-senter til midtpunkt for strekkavlasteren er 2,0 mm 
+MÅ 3D printes når ikke skru-terminaler benyttes.
