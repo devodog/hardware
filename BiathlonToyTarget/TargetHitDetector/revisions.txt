@@ -1,0 +1,14 @@
+1. version production ready 20Feb2023 - - received: ?
+2. version production ready 29May2024 - order 30may2024 @ PCBWAY - received: 04Jun2024
+
+Next version needs a 1k resistor in parallell with 1uF capacitor.
+As the output from the hit detector is to be connected to a GPIO input on a 3.3V mcu as a external interrutp pin.
+The hit detektor outputs 5V and therefor needs some kind of level conversion.
+
+One way to implementing this level conversion would be to connect a 1k resistor to the output of the comparator
+and let this signal be wired to the actual gpio-port on the mcu, through the signal-board.
+
+To ensure that the signal received on the mcu gpio-port is within the max input voltage range, 
+the catode of a 3.0V zerner diode ia connected to the "output" of the 1k resistor and the anode is connected to ground.
+
+For now it is decided that the levelconversion is done on the signal board.

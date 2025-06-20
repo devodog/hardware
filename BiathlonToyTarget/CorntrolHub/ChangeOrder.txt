@@ -1,0 +1,3 @@
+Add Power switch on battery circuit
+Change footprint of Power input Capacitor
+ 

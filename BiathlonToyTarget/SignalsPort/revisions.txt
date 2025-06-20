@@ -1,0 +1,7 @@
+1. version production ready 29May2024 - order 30may2024 @ PCBWAY - received: 04Jun2024
+
+2. version production ready 13Jul2024
+Simple level conversion from 5V to approx. 3V - also a benefit of visual indication when the hit is detected.
+Next version (2) connect a 1k resistor between the output of the hit detector and the mcu interrupt line.
+As visual hit indicator, connect a yellow LED is to be connected between mcu input interrupt line and ground 
+(LED Catode to ground).
