@@ -1,0 +1,28 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.0*%
+%TF.CreationDate,2025-03-25T15:05:36+01:00*%
+%TF.ProjectId,LEDstripCtrl,4c454473-7472-4697-9043-74726c2e6b69,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.0) date 2025-03-25 15:05:36*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X180950000Y-110800000D02*
+G75*
+G02*
+X115950000Y-110800000I-32500000J0D01*
+G01*
+X115950000Y-110800000D02*
+G75*
+G02*
+X180950000Y-110800000I32500000J0D01*
+G01*
+M02*

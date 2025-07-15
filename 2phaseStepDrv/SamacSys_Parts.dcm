@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP DRV8300DIPWR
+D DRV8300DIPWR
+K
+F https://www.ti.com/lit/gpn/drv8300?HQS=ti-null-null-sf-df-pf-sep-wwe&DCM=yes
+$ENDCMP
+#
+$CMP FMBM5551
+D Bipolar Transistors - BJT SSOT6 NPN General Purpose Amplifier
+K
+F https://www.onsemi.com/pdf/datasheet/fmbm5551-d.pdf
+$ENDCMP
+#
+#End Doc Library

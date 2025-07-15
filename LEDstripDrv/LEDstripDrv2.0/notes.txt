@@ -1,0 +1,5 @@
+Fixes for the next HW revision
+==============================
+Missing silk screen marking for the screw terminals and header pins.
+REPLACE D3 with 1A Schottky and use SMD component (PMEG6010ELR) to immitate the
+VUSB to VSYS solution in the Pico 2 board.

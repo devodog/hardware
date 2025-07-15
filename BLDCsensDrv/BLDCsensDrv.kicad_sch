@@ -2514,6 +2514,12 @@
 		(uuid "d705869f-e716-48e1-93ed-787149ebb59d")
 	)
 	(junction
+		(at 40.64 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3cd9bb4-62d0-4f8b-89fa-ca9ef22bc1cc")
+	)
+	(junction
 		(at 172.72 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2964,6 +2970,16 @@
 			(type default)
 		)
 		(uuid "2d0f1e95-3050-415e-b687-1e9e00f4e751")
+	)
+	(wire
+		(pts
+			(xy 36.83 27.94) (xy 40.64 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dda3480-abf2-43e9-aa59-9514d285c0c7")
 	)
 	(wire
 		(pts
@@ -3867,6 +3883,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 27.94) (xy 40.64 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9deddc4b-e502-4b4c-af1f-5c3c44d93702")
+	)
+	(wire
+		(pts
 			(xy 128.27 132.08) (xy 165.1 132.08)
 		)
 		(stroke
@@ -4517,7 +4543,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 96.52) (xy 40.64 20.32)
+			(xy 40.64 96.52) (xy 40.64 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4819,6 +4845,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PVDD"
+		(shape input)
+		(at 36.83 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef2a0c86-6978-4dfd-bdfb-d0b392408dce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.9462 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)

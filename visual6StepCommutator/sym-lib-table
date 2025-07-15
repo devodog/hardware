@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Visual3pInverter-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Visual3pInverter-eagle-import.kicad_sym")(options "")(descr ""))
+)
